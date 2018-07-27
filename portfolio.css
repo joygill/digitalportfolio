@@ -1,5 +1,20 @@
 html{
-    background-color: cornflowerblue
+    background-color: cornflowerblue;
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
 }
 
+p {
+    width: 600px;
+    text-align: justify
+}
+
+.statement
+{
+    float: right;
+    position: relative;
+    right: 25px;
+    top: 50px;
+    
+}
