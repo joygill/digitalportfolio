@@ -11,14 +11,25 @@ body{
 }
 
 
+
+header{
+
+    position: fixed;
+    width: 100%;
+}
 .topnav {
     
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
     
     font-size: 32px;
     font-weight: 900;
+
+
+    
 }
 
 
@@ -50,6 +61,8 @@ body{
     justify-content: center;
     align-items: center;
     
+
+    
    
 }
 
@@ -64,6 +77,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:center;
+
         
  }
 
@@ -99,6 +113,13 @@ footer {
     justify-content: space-around;
     font-size: 32px;
     font-weight: 900;
+
+    position: fixed;
+    width: 100%;
+    bottom: 2.5%;
 }
 
+section{
 
+
+}
