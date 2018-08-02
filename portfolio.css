@@ -2,11 +2,23 @@ html {
     background-color: lightcoral;
     font-family: 'Montserrat', sans-serif;
     
+    
+    
 }
 
 body{
     
-   
+   display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+    text-align: justify; 
+            font-size: 24px;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 1.5;
+    
+    padding: 50px 0px 0px 0;
     
 }
 
@@ -14,12 +26,16 @@ body{
 
 header{
 
-    position: fixed;
-    width: 100%;
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;   
+
 }
+
 .topnav {
     
-
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -27,6 +43,7 @@ header{
     
     font-size: 32px;
     font-weight: 900;
+    
 
 
     
@@ -56,39 +73,35 @@ header{
 
 .imagestream {
     
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-
-    
+    position: absolute;
+     top:50%;
+    left:50%;
+     transform: translate(-50%, -50%);
+   
+    max-width: 40%;
+    border: solid purple 10px;
+    margin: 80px 0px 0px 0px;   
    
 }
 
-.imagestream img {
-     max-width: 50%;
-     height: auto;   
-             
-    }
+
 
 .statement {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-
-        
+           width: 800px;
+            text-align: justify; 
+            font-size: 24px;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 1.5;
  }
 
 p{
     
-    width: 800px;
-    text-align: justify; 
-    font-size: 24px;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 1.5;
+   
+    
+    
+    
+    
     
     
 }
@@ -117,9 +130,11 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 2.5%;
+    
+    
 }
 
 section{
-
+    margin: 
 
 }
