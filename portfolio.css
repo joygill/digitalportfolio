@@ -2,12 +2,10 @@ html {
     background-color: lightcoral;
     font-family: 'Montserrat', sans-serif;
     
-    
-    
 }
 
+
 body{
-    
    display: flex;
     flex-direction: row;
     justify-content:center;
@@ -71,6 +69,7 @@ header{
     
 }
 
+
 .imagestream {
     
     position: absolute;
@@ -79,7 +78,7 @@ header{
      transform: translate(-50%, -50%);
    
     max-width: 40%;
-    border: solid purple 10px;
+    border: outset purple 10px;
     margin: 80px 0px 0px 0px;   
    
 }
@@ -96,13 +95,7 @@ header{
  }
 
 p{
-    
-   
-    
-    
-    
-    
-    
+
     
 }
 
@@ -134,7 +127,27 @@ footer {
     
 }
 
-section{
-    margin: 
 
+
+/* The following is the scrollbar */ 
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
 }
